@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="960" viewBox="0 0 1650 960">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="40" y="80" width="720" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="400.0" y="123" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixPortrait</text>
+<polyline points="40,146 760,146" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="183" font-size="27">+ renderer: PortraitRenderer</text>
+<text x="55" y="225" font-size="27">+ draw(matrix)</text>
+<text x="55" y="267" font-size="27">+ describe(value) {abstract}</text>
+<rect x="975" y="80" width="630" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1290.0" y="123" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">PortraitRenderer</text>
+<polyline points="975,146 1605,146" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="990" y="183" font-size="27">+ begin(rows, columns)</text>
+<text x="990" y="225" font-size="27">+ draw_cell(...) {abstract}</text>
+<polyline points="760,185 975,185" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="953.7121218532972,196.08270021299558 975,185 953.7121218532972,173.91729978700442" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="866" y="149" font-size="25" text-anchor="middle">renderer</text>
+<text x="943" y="225" font-size="25">1</text>
+<rect x="40" y="530" width="720" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="400.0" y="573" font-size="29" text-anchor="middle" font-weight="bold">SignPortrait</text>
+<polyline points="40,596 760,596" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="633" font-size="27">+ describe(value)</text>
+<polyline points="400,530 400,282" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="411.0827002129956,303.28787814670284 400,282 388.9172997870044,303.28787814670284" fill="white" stroke="#111" stroke-width="2.5"/>
+<rect x="900" y="530" width="710" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1255.0" y="573" font-size="29" text-anchor="middle" font-weight="bold">ColorCellRenderer</text>
+<polyline points="900,596 1610,596" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="915" y="633" font-size="27">+ draw_cell(row, column, color, label)</text>
+<rect x="900" y="760" width="710" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1255.0" y="803" font-size="29" text-anchor="middle" font-weight="bold">TextCellRenderer</text>
+<polyline points="900,826 1610,826" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="915" y="863" font-size="27">+ draw_cell(row, column, color, label)</text>
+<polyline points="1255,530 1255,240" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1266.0827002129956,261.28787814670284 1255,240 1243.9172997870044,261.28787814670284" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1560,760 1630,760 1630,430 1450,430 1450,240" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1461.0827002129956,261.28787814670284 1450,240 1438.9172997870044,261.28787814670284" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="45" y="760" font-size="27">SignPortrait определяет знак элемента.</text>
+<text x="45" y="810" font-size="27">Renderer определяет способ рисования клетки.</text>
+<text x="45" y="900" font-size="25">Пустой треугольник — наследование; сплошная стрелка — ассоциация.</text>
+</g></svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="40" y="60" width="610" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="345.0" y="103" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixCreator</text>
+<polyline points="40,126 650,126" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="163" font-size="27">+ prepare(): tuple</text>
+<text x="55" y="205" font-size="27">+ create_matrix(): Matrix {abstract}</text>
+<rect x="1030" y="60" width="430" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1245.0" y="103" font-size="29" text-anchor="middle" font-weight="bold">Matrix</text>
+<polyline points="1030,126 1460,126" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1045" y="163" font-size="27">+ data: list</text>
+<text x="1045" y="205" font-size="27">+ rows, columns: int</text>
+<polyline points="650,135 1030,135" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="1008.7121218532972,146.08270021299558 1030,135 1008.7121218532972,123.91729978700441" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="835" y="102" font-size="27" text-anchor="middle">«create»</text>
+<rect x="35" y="440" width="650" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="360.0" y="483" font-size="29" text-anchor="middle" font-weight="bold">TextMatrixCreator</text>
+<polyline points="35,506 685,506" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="50" y="543" font-size="27">+ text: str</text>
+<text x="50" y="585" font-size="27">+ create_matrix(): Matrix</text>
+<rect x="805" y="440" width="650" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1130.0" y="483" font-size="29" text-anchor="middle" font-weight="bold">FileMatrixCreator</text>
+<polyline points="805,506 1455,506" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="820" y="543" font-size="27">+ path: str | Path</text>
+<text x="820" y="585" font-size="27">+ create_matrix(): Matrix</text>
+<polyline points="360,440 360,300 260,300 260,220" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="271.0827002129956,241.28787814670284 260,220 248.91729978700442,241.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1130,440 1130,320 500,320 500,220" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="511.0827002129956,241.28787814670284 500,220 488.9172997870044,241.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<rect x="390" y="760" width="720" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="750.0" y="803" font-size="29" text-anchor="middle" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="390,826 1110,826" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="405" y="863" font-size="27">+ read_matrix(text): Matrix</text>
+<text x="405" y="905" font-size="27">+ load_matrix(text)</text>
+<polyline points="520,760 520,680 360,680 360,600" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="371.0827002129956,621.2878781467028 360,600 348.9172997870044,621.2878781467028" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="975,760 975,680 1130,680 1130,600" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="1141.0827002129956,621.2878781467028 1130,600 1118.9172997870044,621.2878781467028" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="50" y="970" font-size="25">Пустой треугольник — наследование; пунктирная стрелка — зависимость.</text>
+</g></svg>

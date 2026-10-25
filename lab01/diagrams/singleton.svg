@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="740" viewBox="0 0 1500 740">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="50" y="170" width="640" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="370.0" y="213" font-size="29" text-anchor="middle" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="50,236 690,236" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65" y="273" font-size="27">+ settings: AppSettings</text>
+<text x="65" y="315" font-size="27">+ open_settings()</text>
+<text x="65" y="357" font-size="27">+ show_portrait()</text>
+<rect x="870" y="80" width="580" height="328" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1160.0" y="123" font-size="29" text-anchor="middle" font-weight="bold">AppSettings</text>
+<polyline points="870,146 1450,146" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="885" y="183" font-size="27" text-decoration="underline">- _instance: AppSettings | None</text>
+<text x="885" y="225" font-size="27">+ values: dict</text>
+<text x="885" y="267" font-size="27">+ __new__(cls): AppSettings</text>
+<text x="885" y="309" font-size="27">+ load()</text>
+<text x="885" y="351" font-size="27">+ save(values)</text>
+<text x="885" y="393" font-size="27">+ validate(values)</text>
+<text x="1160" y="53" font-size="27" text-anchor="middle">«Singleton»</text>
+<polyline points="690,300 870,300" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="848.7121218532972,311.0827002129956 870,300 848.7121218532972,288.9172997870044" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="785" y="267" font-size="23" text-anchor="middle">settings</text>
+<text x="844" y="334" font-size="27">1</text>
+<text x="60" y="620" font-size="27">AppSettings() возвращает один объект при повторных обращениях.</text>
+<text x="60" y="665" font-size="25">Стрелка — ассоциация; подчёркнутый член принадлежит классу; «−» — внутренний член.</text>
+</g></svg>

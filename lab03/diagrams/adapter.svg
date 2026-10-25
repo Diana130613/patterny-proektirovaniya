@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1020" viewBox="0 0 1500 1020">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="350" y="50" width="700" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="700.0" y="93" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixReader</text>
+<polyline points="350,116 1050,116" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="365" y="153" font-size="27">+ read(path): Matrix {abstract}</text>
+<rect x="40" y="350" width="600" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="340.0" y="393" font-size="29" text-anchor="middle" font-weight="bold">TextMatrixReader</text>
+<polyline points="40,416 640,416" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="453" font-size="27">+ read(path): Matrix</text>
+<rect x="800" y="350" width="650" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1125.0" y="393" font-size="29" text-anchor="middle" font-weight="bold">CsvMatrixAdapter</text>
+<polyline points="800,416 1450,416" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="815" y="453" font-size="27">+ reader: CsvTableReader</text>
+<text x="815" y="495" font-size="27">+ read(path): Matrix</text>
+<polyline points="340,350 340,260 580,260 580,168" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="591.0827002129956,189.28787814670284 580,168 568.9172997870044,189.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1125,350 1125,260 830,260 830,168" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="841.0827002129956,189.28787814670284 830,168 818.9172997870044,189.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<rect x="800" y="760" width="650" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1125.0" y="803" font-size="29" text-anchor="middle" font-weight="bold">CsvTableReader</text>
+<polyline points="800,826 1450,826" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="815" y="863" font-size="27">+ load_rows(path): list</text>
+<polyline points="1125,510 1125,760" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1113.9172997870044,738.7121218532972 1125,760 1136.0827002129956,738.7121218532972" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1160" y="655" font-size="26">reader</text>
+<text x="1145" y="733" font-size="26">1</text>
+<rect x="40" y="760" width="600" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="340.0" y="803" font-size="29" text-anchor="middle" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="40,826 640,826" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="863" font-size="27">+ load_matrix(text)</text>
+<polyline points="340,760 340,660 10,660 10,210 350,210 350,150" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="361.0827002129956,171.28787814670284 350,150 338.9172997870044,171.2878781467028" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65" y="620" font-size="24">использует</text>
+<text x="50" y="970" font-size="25">MatrixReader — целевой интерфейс; CsvTableReader — адаптируемый класс.</text>
+</g></svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="40" y="90" width="680" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="380.0" y="133" font-size="29" text-anchor="middle" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="40,156 720,156" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="193" font-size="27">+ prototype: Matrix | None</text>
+<text x="55" y="235" font-size="27">+ remember_prototype()</text>
+<text x="55" y="277" font-size="27">+ restore_prototype()</text>
+<rect x="950" y="90" width="500" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1200.0" y="133" font-size="29" text-anchor="middle" font-weight="bold">Matrix</text>
+<polyline points="950,156 1450,156" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="965" y="193" font-size="27">+ data: list</text>
+<text x="965" y="235" font-size="27">+ clone(): Matrix</text>
+<polyline points="720,230 950,230" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="928.7121218532972,241.08270021299558 950,230 928.7121218532972,218.91729978700442" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="835" y="195" font-size="27" text-anchor="middle">prototype</text>
+<text x="860" y="268" font-size="24">0..1</text>
+<text x="60" y="470" font-size="27">Matrix — конкретный прототип. clone() создаёт новый объект и новые строки.</text>
+<text x="60" y="525" font-size="27">Клиент хранит один образец либо None и получает независимые копии.</text>
+<text x="60" y="585" font-size="25">Сплошная стрелка — направленная ассоциация.</text>
+</g></svg>
