@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="530" y="30" width="740" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="900.0" y="73" font-size="29" text-anchor="middle" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="530,96 1270,96" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="545" y="133" font-size="27">+ calculate()</text>
+<text x="545" y="175" font-size="27">+ load_matrix(text)</text>
+<text x="545" y="217" font-size="27">+ save_result()</text>
+<rect x="530" y="320" width="740" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="900.0" y="363" font-size="29" text-anchor="middle" font-weight="bold">CalculatorFacade</text>
+<polyline points="530,386 1270,386" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="545" y="423" font-size="27">+ calculate(a, b, operation, scalar)</text>
+<text x="545" y="465" font-size="27">+ load(path): Matrix</text>
+<text x="545" y="507" font-size="27">+ save(matrix, path)</text>
+<polyline points="900,232 900,320" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="888.9172997870044,298.71212185329716 900,320 911.0827002129956,298.71212185329716" fill="none" stroke="#111" stroke-width="2.5"/>
+<rect x="30" y="780" width="520" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="290.0" y="823" font-size="29" text-anchor="middle" font-weight="bold">TextMatrixCreator</text>
+<polyline points="30,846 550,846" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="45" y="883" font-size="27">+ prepare(): tuple</text>
+<rect x="640" y="780" width="520" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="900.0" y="823" font-size="29" text-anchor="middle" font-weight="bold">CalculationService</text>
+<polyline points="640,846 1160,846" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="655" y="883" font-size="27">+ calculate(...): Matrix</text>
+<rect x="1250" y="780" width="520" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1510.0" y="823" font-size="29" text-anchor="middle" font-weight="bold">Matrix</text>
+<polyline points="1250,846 1770,846" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1265" y="883" font-size="27">+ save(path)</text>
+<polyline points="600,522 600,690 290,690 290,780" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="278.9172997870044,758.7121218532972 290,780 301.0827002129956,758.7121218532972" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="900,522 900,780" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="888.9172997870044,758.7121218532972 900,780 911.0827002129956,758.7121218532972" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1200,522 1200,690 1510,690 1510,780" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="1498.9172997870044,758.7121218532972 1510,780 1521.0827002129956,758.7121218532972" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="35" y="990" font-size="28">Фасад также выбирает TextMatrixReader или CsvMatrixAdapter при загрузке.</text>
+</g></svg>

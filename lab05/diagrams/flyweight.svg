@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="950" viewBox="0 0 1700 950">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="40" y="55" width="750" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="415.0" y="98" font-size="29" text-anchor="middle" font-weight="bold">SignPortrait</text>
+<polyline points="40,121 790,121" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="158" font-size="27">+ styles: CellStyleFactory</text>
+<text x="55" y="200" font-size="27">+ draw(matrix)</text>
+<rect x="910" y="55" width="750" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1285.0" y="98" font-size="29" text-anchor="middle" font-weight="bold">CellStyleFactory</text>
+<polyline points="910,121 1660,121" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="925" y="158" font-size="27">− _styles: dict</text>
+<text x="925" y="200" font-size="27">+ get(value, settings): CellStyle</text>
+<text x="925" y="242" font-size="27">+ clear()</text>
+<polyline points="790,160 910,160" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="888.7121218532972,171.08270021299558 910,160 888.7121218532972,148.91729978700442" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="825" y="145" font-size="25">1</text>
+<rect x="910" y="530" width="750" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1285.0" y="573" font-size="29" text-anchor="middle" font-weight="bold">CellStyle</text>
+<polyline points="910,596 1660,596" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="925" y="633" font-size="27">+ color: str {readOnly}</text>
+<text x="925" y="675" font-size="27">+ label: str {readOnly}</text>
+<text x="925" y="717" font-size="27">+ draw(renderer, row, column)</text>
+<rect x="40" y="530" width="750" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="415.0" y="573" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">PortraitRenderer</text>
+<polyline points="40,596 790,596" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="633" font-size="27">+ draw_cell(row, column, color, label)</text>
+<polyline points="1285,257 1285,530" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1273.9172997870044,508.71212185329716 1285,530 1296.0827002129956,508.71212185329716" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1308" y="400" font-size="28">_styles</text>
+<text x="1308" y="505" font-size="26">0..*</text>
+<polyline points="910,660 790,660" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="811.2878781467028,648.9172997870044 790,660 811.2878781467028,671.0827002129956" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="40" y="850" font-size="28">Внутреннее состояние: цвет и знак. Внешнее: renderer, row, column.</text>
+<text x="40" y="905" font-size="28">Все клетки одного знака используют один объект стиля при общей палитре.</text>
+</g></svg>
