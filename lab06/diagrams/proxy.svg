@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="1050" viewBox="0 0 1750 1050">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="510" y="40" width="740" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="880.0" y="83" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixCalculator</text>
+<polyline points="510,106 1250,106" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="525" y="143" font-size="27">+ calculate(a, b, operation, scalar)</text>
+<rect x="45" y="495" width="730" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="410.0" y="538" font-size="29" text-anchor="middle" font-weight="bold">CalculationService</text>
+<polyline points="45,561 775,561" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="60" y="598" font-size="27">+ calculate(a, b, operation, scalar)</text>
+<rect x="975" y="495" width="730" height="286" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1340.0" y="538" font-size="29" text-anchor="middle" font-weight="bold">CachedCalculator</text>
+<polyline points="975,561 1705,561" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="990" y="598" font-size="27">+ calculator: MatrixCalculator</text>
+<text x="990" y="640" font-size="27">+ cache: OrderedDict</text>
+<text x="990" y="682" font-size="27">+ last_hit: bool</text>
+<text x="990" y="724" font-size="27">+ calculate(a, b, operation, scalar)</text>
+<text x="990" y="766" font-size="27">+ clear()</text>
+<polyline points="410,495 410,315 700,315 700,158" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="711.0827002129956,179.28787814670284 700,158 688.9172997870044,179.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1340,495 1340,315 1080,315 1080,158" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1091.0827002129956,179.28787814670284 1080,158 1068.9172997870044,179.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1705,600 1730,600 1730,100 1250,100" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1271.2878781467027,88.91729978700441 1250,100 1271.2878781467027,111.08270021299559" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1340" y="75" font-size="27">calculator</text>
+<text x="1268" y="135" font-size="25">1</text>
+<text x="45" y="960" font-size="28">Клиент CalculatorFacade обращается к обоим классам через общий интерфейс.</text>
+<text x="45" y="1015" font-size="28">При промахе Заместитель передаёт запрос CalculationService.</text>
+</g></svg>
