@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1210" viewBox="0 0 1800 1210">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="45" y="45" width="740" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="415.0" y="88" font-size="29" text-anchor="middle" font-weight="bold">CommandHistory</text>
+<polyline points="45,111 785,111" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="60" y="148" font-size="27">+ commands: list</text>
+<text x="60" y="190" font-size="27">+ execute(command)</text>
+<text x="60" y="232" font-size="27">+ undo(): bool</text>
+<rect x="1015" y="45" width="740" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1385.0" y="88" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">Command</text>
+<polyline points="1015,111 1755,111" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1030" y="148" font-size="27">+ execute() {abstract}</text>
+<text x="1030" y="190" font-size="27">+ undo() {abstract}</text>
+<polyline points="785,150 1015,150" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="993.7121218532972,161.08270021299558 1015,150 993.7121218532972,138.91729978700442" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="825" y="125" font-size="25">0..*</text>
+<rect x="1015" y="440" width="740" height="328" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1385.0" y="483" font-size="29" text-anchor="middle" font-weight="bold">CalculateCommand</text>
+<polyline points="1015,506 1755,506" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1030" y="543" font-size="27">+ facade: CalculatorFacade</text>
+<text x="1030" y="585" font-size="27">+ store: ResultStore</text>
+<text x="1030" y="627" font-size="27">+ request: tuple</text>
+<text x="1030" y="669" font-size="27">+ previous: Matrix</text>
+<text x="1030" y="711" font-size="27">+ execute()</text>
+<text x="1030" y="753" font-size="27">+ undo()</text>
+<polyline points="1385,440 1385,205" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1396.0827002129956,226.28787814670284 1385,205 1373.9172997870044,226.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<rect x="45" y="480" width="740" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="415.0" y="523" font-size="29" text-anchor="middle" font-weight="bold">ResultStore</text>
+<polyline points="45,546 785,546" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="60" y="583" font-size="27">+ result: Matrix</text>
+<text x="60" y="625" font-size="27">+ set_result(matrix)</text>
+<polyline points="1015,565 785,565" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="806.2878781467028,553.9172997870044 785,565 806.2878781467028,576.0827002129956" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="810" y="545" font-size="27">store  1</text>
+<rect x="1015" y="950" width="740" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1385.0" y="993" font-size="29" text-anchor="middle" font-weight="bold">CalculatorFacade</text>
+<polyline points="1015,1016 1755,1016" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1030" y="1053" font-size="27">+ calculate(...): Matrix</text>
+<polyline points="1385,768 1385,950" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1373.9172997870044,928.7121218532972 1385,950 1396.0827002129956,928.7121218532972" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1410" y="850" font-size="27">facade  1</text>
+<text x="45" y="1145" font-size="28">Кнопка «Вычислить» создаёт команду; «Отменить» вызывает CommandHistory.undo().</text>
+</g></svg>

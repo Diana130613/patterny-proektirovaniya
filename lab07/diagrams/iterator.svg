@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="750" viewBox="0 0 1700 750">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="40" y="75" width="740" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="410.0" y="118" font-size="29" text-anchor="middle" font-weight="bold">Matrix</text>
+<polyline points="40,141 780,141" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="178" font-size="27">+ data: list</text>
+<text x="55" y="220" font-size="27">+ rows, columns: int</text>
+<text x="55" y="262" font-size="27">+ __iter__(): MatrixIterator</text>
+<rect x="920" y="75" width="740" height="244" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1290.0" y="118" font-size="29" text-anchor="middle" font-weight="bold">MatrixIterator</text>
+<polyline points="920,141 1660,141" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="935" y="178" font-size="27">+ matrix: Matrix</text>
+<text x="935" y="220" font-size="27">+ index: int</text>
+<text x="935" y="262" font-size="27">+ __iter__(): MatrixIterator</text>
+<text x="935" y="304" font-size="27">+ __next__(): tuple</text>
+<polyline points="920,190 780,190" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="801.2878781467028,178.91729978700442 780,190 801.2878781467028,201.08270021299558" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="805" y="165" font-size="25">1</text>
+<polyline points="410,277 410,470 1290,470 1290,319" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="12 8"/>
+<polyline points="1301.0827002129956,340.28787814670284 1290,319 1278.9172997870044,340.28787814670284" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="605" y="445" font-size="27">«create»</text>
+<text x="40" y="590" font-size="29">Каждый вызов iter(matrix) создаёт независимый обход по строкам.</text>
+<text x="40" y="645" font-size="29">Элемент обхода: (строка, столбец, значение). Конец: StopIteration.</text>
+<text x="40" y="700" font-size="29">Функция sign_counts(matrix) использует этот обход для подсчёта знаков.</text>
+</g></svg>
