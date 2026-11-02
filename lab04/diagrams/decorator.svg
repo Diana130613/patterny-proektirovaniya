@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1100" viewBox="0 0 1700 1100">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="590" y="45" width="660" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="920.0" y="88" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixFormatter</text>
+<polyline points="590,111 1250,111" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="605" y="148" font-size="27">+ format(matrix): str {abstract}</text>
+<rect x="55" y="390" width="650" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="380.0" y="433" font-size="29" text-anchor="middle" font-weight="bold">PlainFormatter</text>
+<polyline points="55,456 705,456" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="70" y="493" font-size="27">+ decimal_places: int</text>
+<text x="70" y="535" font-size="27">+ format(matrix): str</text>
+<rect x="915" y="390" width="710" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1270.0" y="433" font-size="29" text-anchor="middle" font-weight="bold">FormatterDecorator</text>
+<polyline points="915,456 1625,456" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="930" y="493" font-size="27">+ formatter: MatrixFormatter</text>
+<text x="930" y="535" font-size="27">+ format(matrix): str</text>
+<polyline points="380,390 380,270 750,270 750,163" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="761.0827002129956,184.28787814670284 750,163 738.9172997870044,184.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1270,390 1270,270 1080,270 1080,163" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1091.0827002129956,184.28787814670284 1080,163 1068.9172997870044,184.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1625,470 1675,470 1675,110 1250,110" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="1271.2878781467027,98.91729978700441 1250,110 1271.2878781467027,121.08270021299559" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1370" y="85" font-size="27">formatter</text>
+<text x="1270" y="145" font-size="25">1</text>
+<rect x="50" y="805" width="760" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="430.0" y="848" font-size="29" text-anchor="middle" font-weight="bold">RowNumbersFormatter</text>
+<polyline points="50,871 810,871" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65" y="908" font-size="27">+ format(matrix): str</text>
+<rect x="915" y="805" width="710" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1270.0" y="848" font-size="29" text-anchor="middle" font-weight="bold">SizeFormatter</text>
+<polyline points="915,871 1625,871" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="930" y="908" font-size="27">+ format(matrix): str</text>
+<polyline points="430,805 430,680 1110,680 1110,550" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1121.0827002129956,571.2878781467028 1110,550 1098.9172997870044,571.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1270,805 1270,550" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="1281.0827002129956,571.2878781467028 1270,550 1258.9172997870044,571.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="1030" font-size="27">Декоратор и обычный форматтер используют один интерфейс MatrixFormatter.</text>
+</g></svg>

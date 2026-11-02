@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#111" stroke-linejoin="round">
+<rect x="490" y="45" width="630" height="118" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="805.0" y="88" font-size="29" text-anchor="middle" font-weight="bold" font-style="italic">MatrixExpression</text>
+<polyline points="490,111 1120,111" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="505" y="148" font-size="27">+ evaluate(): Matrix {abstract}</text>
+<rect x="40" y="440" width="790" height="202" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="435.0" y="483" font-size="29" text-anchor="middle" font-weight="bold">MatrixOperation</text>
+<polyline points="40,506 830,506" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="55" y="543" font-size="27">+ left, right: MatrixExpression</text>
+<text x="55" y="585" font-size="27">+ operation: str</text>
+<text x="55" y="627" font-size="27">+ evaluate(): Matrix</text>
+<rect x="990" y="440" width="560" height="160" fill="white" stroke="#111" stroke-width="2.5"/>
+<text x="1270.0" y="483" font-size="29" text-anchor="middle" font-weight="bold">MatrixValue</text>
+<polyline points="990,506 1550,506" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="1005" y="543" font-size="27">+ matrix: Matrix</text>
+<text x="1005" y="585" font-size="27">+ evaluate(): Matrix</text>
+<polyline points="440,440 440,310 650,310 650,163" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="661.0827002129956,184.28787814670284 650,163 638.9172997870044,184.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="1270,440 1270,310 950,310 950,163" fill="none" stroke="#111" stroke-width="2.5"/>
+<polygon points="961.0827002129956,184.28787814670284 950,163 938.9172997870044,184.2878781467028" fill="white" stroke="#111" stroke-width="2.5"/>
+<polyline points="40,550 15,550 15,110 490,110" fill="none" stroke="#111" stroke-width="2.5"/>
+<polyline points="468.71212185329716,121.08270021299559 490,110 468.71212185329716,98.91729978700441" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="80" y="210" font-size="28">left, right</text>
+<text x="445" y="95" font-size="25">2</text>
+<text x="55" y="790" font-size="28">MatrixValue — лист с матрицей; MatrixOperation — составной узел.</text>
+<text x="55" y="845" font-size="28">Оба дочерних выражения вычисляются через общий метод evaluate().</text>
+</g></svg>
