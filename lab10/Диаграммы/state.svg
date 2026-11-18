@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="830" viewBox="0 0 1850 830"><rect width="100%" height="100%" fill="white"/>
+<rect x="50" y="50" width="650" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="375.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculationContext</text>
+<polyline points="50,110 700,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="65" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ state: CalculationState</text>
+<text x="65" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ transition(state, message)</text>
+<text x="65" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(action)</text>
+<rect x="1080" y="50" width="700" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="1430.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculationState</text>
+<polyline points="1080,110 1780,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="1095" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">{abstract}</text>
+<text x="1095" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(context, action)</text>
+<polyline points="700,145 1080,145" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1056.9381320077387,157.00625856407856 1080,145 1056.9381320077387,132.99374143592144" fill="none" stroke="black" stroke-width="3"/>
+<text x="815" y="121" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">state 1</text>
+<rect x="55" y="430" width="560" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="335.0" y="474" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">ReadyState</text>
+<polyline points="55,490 615,490" fill="none" stroke="black" stroke-width="3"/>
+<text x="70" y="531" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ name = &quot;Готов&quot;</text>
+<text x="70" y="571" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(context, action)</text>
+<rect x="700" y="430" width="560" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="980.0" y="474" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">BusyState</text>
+<polyline points="700,490 1260,490" fill="none" stroke="black" stroke-width="3"/>
+<text x="715" y="531" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ name = &quot;Вычисление&quot;</text>
+<text x="715" y="571" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(context, action)</text>
+<polyline points="335,430 335,335 1230,335 1230,200" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="1242.0062585640785,223.0618679922614 1230,200 1217.9937414359215,223.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<polyline points="980,430 980,360 1550,360 1550,200" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="1562.0062585640785,223.0618679922614 1550,200 1537.9937414359215,223.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1300" y="650" width="500" height="110" fill="none" stroke="black" stroke-width="3"/>
+<text x="1550.0" y="694" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">ErrorState</text>
+<polyline points="1300,710 1800,710" fill="none" stroke="black" stroke-width="3"/>
+<text x="1315" y="751" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ name = &quot;Ошибка&quot;</text>
+<polyline points="1300,720 335,720 335,580" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="347.00625856407856,603.0618679922613 335,580 322.99374143592144,603.0618679922613" fill="white" stroke="black" stroke-width="3"/>
+<text x="70" y="808" text-anchor="start" font-family="Arial" font-size="28" font-weight="normal">Ready -&gt; Busy -&gt; Ready / Error; Error allows a new calculation.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" viewBox="0 0 1800 700"><rect width="100%" height="100%" fill="white"/>
+<rect x="510" y="35" width="790" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="905.0" y="79" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">OperationTemplate</text>
+<polyline points="510,95 1300,95" fill="none" stroke="black" stroke-width="3"/>
+<text x="525" y="136" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">{abstract}</text>
+<text x="525" y="176" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ execute(a, b): Matrix</text>
+<text x="525" y="216" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ validate(a, b), compute(a, b)</text>
+<text x="525" y="256" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ validate_result(result)</text>
+<rect x="50" y="440" width="690" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="395.0" y="484" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">AddOperation</text>
+<polyline points="50,500 740,500" fill="none" stroke="black" stroke-width="3"/>
+<text x="65" y="541" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ validate(a, b)</text>
+<text x="65" y="581" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ compute(a, b): Matrix</text>
+<rect x="990" y="440" width="760" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="1370.0" y="484" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">MultiplyOperation</text>
+<polyline points="990,500 1750,500" fill="none" stroke="black" stroke-width="3"/>
+<text x="1005" y="541" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ strategy: MultiplicationStrategy</text>
+<text x="1005" y="581" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ validate(a, b)</text>
+<text x="1005" y="621" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ compute(a, b): Matrix</text>
+<polyline points="395,440 395,350 690,350 690,265" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="702.0062585640785,288.0618679922614 690,265 677.9937414359215,288.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<polyline points="1370,440 1370,350 1110,350 1110,265" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="1122.0062585640785,288.0618679922614 1110,265 1097.9937414359215,288.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<text x="60" y="662" text-anchor="start" font-family="Arial" font-size="27" font-weight="normal">execute(): validate -&gt; compute -&gt; validate_result; subclasses define the steps.</text>
+</svg>

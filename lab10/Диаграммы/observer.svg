@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720"><rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="30" width="700" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="390.0" y="74" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">Observable</text>
+<polyline points="40,90 740,90" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="131" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ observers: list</text>
+<text x="55" y="171" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ subscribe(observer)</text>
+<text x="55" y="211" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ unsubscribe(observer)</text>
+<text x="55" y="251" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ publish(event)</text>
+<rect x="40" y="460" width="700" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="390.0" y="504" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculationContext</text>
+<polyline points="40,520 740,520" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="561" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(action)</text>
+<text x="55" y="601" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ transition(state, message)</text>
+<polyline points="390,460 390,260" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="402.00625856407856,283.0618679922614 390,260 377.99374143592144,283.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1080" y="30" width="670" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="1415.0" y="74" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="1080,90 1750,90" fill="none" stroke="black" stroke-width="3"/>
+<text x="1095" y="131" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ show_state(event)</text>
+<text x="1095" y="171" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ count_event(event)</text>
+<polyline points="740,150 1080,150" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1056.9381320077387,162.00625856407856 1080,150 1056.9381320077387,137.99374143592144" fill="none" stroke="black" stroke-width="3"/>
+<text x="795" y="121" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">observers 0..*</text>
+<rect x="1080" y="460" width="670" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="1415.0" y="504" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculationEvent</text>
+<polyline points="1080,520 1750,520" fill="none" stroke="black" stroke-width="3"/>
+<text x="1095" y="561" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">{frozen dataclass}</text>
+<text x="1095" y="601" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ state, message, result</text>
+<polyline points="740,550 1080,550" fill="none" stroke="black" stroke-width="3" stroke-dasharray="12 8"/>
+<polyline points="1056.9381320077387,562.0062585640785 1080,550 1056.9381320077387,537.9937414359215" fill="none" stroke="black" stroke-width="3"/>
+<text x="800" y="526" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">publishes</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="650" viewBox="0 0 1700 650"><rect width="100%" height="100%" fill="white"/>
+<rect x="70" y="70" width="610" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="375.0" y="114" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">MatrixCalculatorApp</text>
+<polyline points="70,130 680,130" fill="none" stroke="black" stroke-width="3"/>
+<text x="85" y="171" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ mediator: CalculatorMediator</text>
+<text x="85" y="211" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ session_action(event)</text>
+<rect x="960" y="70" width="660" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="1290.0" y="114" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorMediator</text>
+<polyline points="960,130 1620,130" fill="none" stroke="black" stroke-width="3"/>
+<text x="975" y="171" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ view: MatrixCalculatorApp</text>
+<text x="975" y="211" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ session: CalculatorSession</text>
+<text x="975" y="251" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ history: SnapshotHistory</text>
+<text x="975" y="291" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ notify(event)</text>
+<polyline points="680,125 960,125" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="936.9381320077387,137.00625856407856 960,125 936.9381320077387,112.99374143592145" fill="none" stroke="black" stroke-width="3"/>
+<text x="720" y="109" text-anchor="start" font-family="Arial" font-size="24" font-weight="normal">mediator 1</text>
+<polyline points="960,215 680,215" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="703.0618679922613,202.99374143592144 680,215 703.0618679922613,227.00625856407856" fill="none" stroke="black" stroke-width="3"/>
+<text x="735" y="259" text-anchor="start" font-family="Arial" font-size="24" font-weight="normal">view 1</text>
+<rect x="70" y="430" width="610" height="110" fill="none" stroke="black" stroke-width="3"/>
+<text x="375.0" y="474" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">Tkinter widgets</text>
+<polyline points="70,490 680,490" fill="none" stroke="black" stroke-width="3"/>
+<text x="85" y="531" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">operation, scalar, A, B, result</text>
+<polyline points="960,280 850,280 850,480 680,480" fill="none" stroke="black" stroke-width="3" stroke-dasharray="12 8"/>
+<polyline points="703.0618679922613,467.99374143592144 680,480 703.0618679922613,492.00625856407856" fill="none" stroke="black" stroke-width="3"/>
+<text x="920" y="411" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">coordinates UI events</text>
+</svg>
