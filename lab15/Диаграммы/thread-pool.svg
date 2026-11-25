@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="900" viewBox="0 0 1850 900"><rect width="100%" height="100%" fill="white"/>
+<rect x="30" y="50" width="760" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="410.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorPresenter</text>
+<polyline points="30,110 790,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="45" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ worker: BackgroundCalculator</text>
+<text x="45" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ pending: Future [0..1]</text>
+<text x="45" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(), poll_result(), close()</text>
+<rect x="1040" y="50" width="760" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="1420.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">BackgroundCalculator</text>
+<polyline points="1040,110 1800,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="1055" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ pool: ThreadPoolExecutor</text>
+<text x="1055" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ pending: Future [0..1]</text>
+<text x="1055" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ submit(request): Future</text>
+<text x="1055" y="271" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ close()</text>
+<polyline points="790,140 1040,140" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1016.9381320077387,152.00625856407856 1040,140 1016.9381320077387,127.99374143592145" fill="none" stroke="black" stroke-width="3"/>
+<text x="850" y="116" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">worker 1</text>
+<rect x="30" y="530" width="760" height="150" fill="none" stroke="black" stroke-width="3"/>
+<text x="410.0" y="574" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">Future</text>
+<polyline points="30,590 790,590" fill="none" stroke="black" stroke-width="3"/>
+<text x="45" y="631" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ done(): bool</text>
+<text x="45" y="671" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ result(): Matrix</text>
+<rect x="1040" y="530" width="760" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="1420.0" y="574" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">ThreadPoolExecutor</text>
+<polyline points="1040,590 1800,590" fill="none" stroke="black" stroke-width="3"/>
+<text x="1055" y="631" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ max_workers = 1</text>
+<text x="1055" y="671" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ submit(...): Future</text>
+<text x="1055" y="711" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ shutdown(wait, cancel_futures)</text>
+<polyline points="400,240 400,530" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="387.99374143592144,506.9381320077386 400,530 412.00625856407856,506.9381320077386" fill="none" stroke="black" stroke-width="3"/>
+<text x="430" y="401" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">pending 0..1</text>
+<polyline points="1420,280 1420,530" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1407.9937414359215,506.9381320077386 1420,530 1432.0062585640785,506.9381320077386" fill="none" stroke="black" stroke-width="3"/>
+<text x="1450" y="411" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">pool 1</text>
+<polyline points="1040,640 790,640" fill="none" stroke="black" stroke-width="3" stroke-dasharray="12 8"/>
+<polyline points="813.0618679922613,627.9937414359215 790,640 813.0618679922613,652.0062585640785" fill="none" stroke="black" stroke-width="3"/>
+<text x="850" y="616" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">creates</text>
+<text x="40" y="838" text-anchor="start" font-family="Arial" font-size="28" font-weight="normal">Worker: calculation only. Main Tkinter thread: polling, journal and widgets.</text>
+</svg>

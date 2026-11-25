@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="840" viewBox="0 0 1900 840"><rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="40" width="760" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="420.0" y="84" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorView</text>
+<polyline points="40,100 800,100" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="141" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ presenter: CalculatorPresenter</text>
+<text x="55" y="181" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ get_request(), set_request(request)</text>
+<text x="55" y="221" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ show_result(text, statistics)</text>
+<text x="55" y="261" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ show_error(message)</text>
+<rect x="1070" y="40" width="780" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="1460.0" y="84" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorPresenter</text>
+<polyline points="1070,100 1850,100" fill="none" stroke="black" stroke-width="3"/>
+<text x="1085" y="141" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ view: CalculatorView</text>
+<text x="1085" y="181" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ model: CalculatorModel</text>
+<text x="1085" y="221" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(), undo()</text>
+<text x="1085" y="261" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ refresh_result()</text>
+<polyline points="800,115 1070,115" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1046.9381320077387,127.00625856407855 1070,115 1046.9381320077387,102.99374143592145" fill="none" stroke="black" stroke-width="3"/>
+<text x="850" y="95" text-anchor="start" font-family="Arial" font-size="25" font-weight="normal">presenter 1</text>
+<polyline points="1070,220 800,220" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="823.0618679922613,207.99374143592144 800,220 823.0618679922613,232.00625856407856" fill="none" stroke="black" stroke-width="3"/>
+<text x="875" y="270" text-anchor="start" font-family="Arial" font-size="25" font-weight="normal">view 1</text>
+<rect x="560" y="520" width="900" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="1010.0" y="564" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorModel</text>
+<polyline points="560,580 1460,580" fill="none" stroke="black" stroke-width="3"/>
+<text x="575" y="621" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ facade, store, history, session, context</text>
+<text x="575" y="661" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(request)</text>
+<text x="575" y="701" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ save_session(request), restore_session()</text>
+<text x="575" y="741" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ set_strategy(name)</text>
+<polyline points="1460,270 1460,400 1060,400 1060,520" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1047.9937414359215,496.9381320077386 1060,520 1072.0062585640785,496.9381320077386" fill="none" stroke="black" stroke-width="3"/>
+<text x="1485" y="411" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">model 1</text>
+<text x="40" y="799" text-anchor="start" font-family="Arial" font-size="29" font-weight="normal">View displays; Presenter handles actions; Model stores data and performs calculations.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="850" viewBox="0 0 1850 850"><rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="50" width="700" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="390.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorPresenter</text>
+<polyline points="40,110 740,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ model: EventCalculatorModel</text>
+<text x="55" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ save_database(), load_database()</text>
+<text x="55" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ delete_database()</text>
+<rect x="40" y="480" width="700" height="110" fill="none" stroke="black" stroke-width="3"/>
+<text x="390.0" y="524" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">EventCalculatorModel</text>
+<polyline points="40,540 740,540" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="581" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ repository: SessionRepository</text>
+<polyline points="390,240 390,480" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="377.99374143592144,456.9381320077386 390,480 402.00625856407856,456.9381320077386" fill="none" stroke="black" stroke-width="3"/>
+<text x="420" y="366" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">model 1</text>
+<rect x="1060" y="50" width="730" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="1425.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">SessionRepository</text>
+<polyline points="1060,110 1790,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="1075" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">{abstract}</text>
+<text x="1075" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ save(name, snapshot): int</text>
+<text x="1075" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ list_all(), get(id), delete(id)</text>
+<rect x="1010" y="480" width="800" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="1410.0" y="524" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">SqliteSessionRepository</text>
+<polyline points="1010,540 1810,540" fill="none" stroke="black" stroke-width="3"/>
+<text x="1025" y="581" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ path: Path</text>
+<text x="1025" y="621" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ save(name, snapshot): int</text>
+<text x="1025" y="661" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ list_all(), get(id), delete(id)</text>
+<polyline points="740,535 880,535 880,180 1060,180" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1036.9381320077387,192.00625856407856 1060,180 1036.9381320077387,167.99374143592144" fill="none" stroke="black" stroke-width="3"/>
+<text x="910" y="356" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">repository 1</text>
+<polyline points="1410,480 1410,240" fill="none" stroke="black" stroke-width="3"/>
+<polygon points="1422.0062585640785,263.0618679922614 1410,240 1397.9937414359215,263.0618679922614" fill="white" stroke="black" stroke-width="3"/>
+<text x="55" y="808" text-anchor="start" font-family="Arial" font-size="28" font-weight="normal">The presenter uses repository methods; SQL stays in the SQLite implementation.</text>
+</svg>

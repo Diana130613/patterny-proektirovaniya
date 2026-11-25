@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="850" viewBox="0 0 1800 850"><rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="50" width="740" height="230" fill="none" stroke="black" stroke-width="3"/>
+<text x="410.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">EventCalculatorModel</text>
+<polyline points="40,110 780,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ events: EventStore</text>
+<text x="55" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ projection: CalculatorProjection</text>
+<text x="55" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ calculate(request), record(kind, payload)</text>
+<text x="55" y="271" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ replay()</text>
+<rect x="1040" y="50" width="710" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="1395.0" y="94" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">EventStore</text>
+<polyline points="1040,110 1750,110" fill="none" stroke="black" stroke-width="3"/>
+<text x="1055" y="151" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ path: Path</text>
+<text x="1055" y="191" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ append(kind, payload)</text>
+<text x="1055" y="231" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ read_all(): list</text>
+<polyline points="780,150 1040,150" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="1016.9381320077387,162.00625856407856 1040,150 1016.9381320077387,137.99374143592144" fill="none" stroke="black" stroke-width="3"/>
+<text x="840" y="121" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">events 1</text>
+<rect x="520" y="510" width="850" height="190" fill="none" stroke="black" stroke-width="3"/>
+<text x="945.0" y="554" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold">CalculatorProjection</text>
+<polyline points="520,570 1370,570" fill="none" stroke="black" stroke-width="3"/>
+<text x="535" y="611" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ request, result, previous_results</text>
+<text x="535" y="651" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ apply(event)</text>
+<text x="535" y="691" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">+ count: int</text>
+<polyline points="400,280 400,410 800,410 800,510" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="787.9937414359215,486.9381320077386 800,510 812.0062585640785,486.9381320077386" fill="none" stroke="black" stroke-width="3"/>
+<text x="55" y="396" text-anchor="start" font-family="Arial" font-size="26" font-weight="normal">projection 1</text>
+<text x="50" y="799" text-anchor="start" font-family="Arial" font-size="29" font-weight="normal">State is rebuilt by applying saved events in their original order.</text>
+</svg>

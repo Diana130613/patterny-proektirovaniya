@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+settings.json
+events.jsonl
+sessions.db
+sessions.db-*
